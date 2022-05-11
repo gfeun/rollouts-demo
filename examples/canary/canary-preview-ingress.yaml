@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: test-rollout-preview.192.168.49.2.nip.io
+  - host: test-rollout-preview.k8s.cagip.hackervaillant.com
     http:
       paths:
       - path: /
