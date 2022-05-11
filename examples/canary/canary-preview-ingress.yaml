@@ -1,11 +1,11 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: canary-demo-preview
+  name: canary-demo-preview-only
 spec:
   ingressClassName: nginx
   rules:
-  - host: test-rollout-preview.k8s.cagip.hackervaillant.com
+  - host: preview.test-rollout.k8s.cagip.hackervaillant.com
     http:
       paths:
       - path: /
